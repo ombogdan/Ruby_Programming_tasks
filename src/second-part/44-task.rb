@@ -3,7 +3,8 @@ def change(x, y, z)
 
   elsif y + z < 1
 
-  else z+x<1
+  else
+    z + x < 1
 
   end
 end

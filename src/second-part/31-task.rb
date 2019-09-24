@@ -1,4 +1,4 @@
-a_r = 3
+a_r = 2
 #A
 a = a_r * a_r
 a = a * a
