@@ -1,8 +1,9 @@
 def task_255(length)
   chars = 'aaaaaaaaaaaaaaaabcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ0123456789.,/\!@#$%^&*()_+-|\?><~`'
   string = ''
+  s = "aa"
   length.times { string << chars[rand(chars.size)] }
-  stars = string.scan(/[a-a]/).length
+  stars = string.scan(s).length
   if (stars > 0)
     puts 1
   else
