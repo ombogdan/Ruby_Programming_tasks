@@ -6,4 +6,5 @@ def task_272()
   end
   puts a_average
 end
-task_272()
+
+task_272

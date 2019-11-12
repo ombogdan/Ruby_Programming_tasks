@@ -15,5 +15,3 @@ def task_433(s, t)
 end
 
 task_433(1.0,4.0)
-
-
